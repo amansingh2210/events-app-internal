@@ -22,8 +22,8 @@ describe('Testing Get Events', function () {
 });
 
 
-describe('Testing Add Event', function () {
-    it('should  add new item to events ', function () {
+describe('Testing Add Event details', function () {
+    it('should  add new item details to events ', function () {
         const request = {
             body: {
                 title: 'new',
